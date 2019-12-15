@@ -1,0 +1,161 @@
+/*to include border and padding in overall size, tried this originally
+ *,
+		html {
+ 		    box-sizing: border-box;
+ 		}
+ 		*, *:before, *:after {
+		    box-sizing: inherit;
+		}
+*/
+body {
+  background-color: #f5f7fa;
+  background-color: hsl(210, 33%, 97%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 auto 35px;
+}
+
+h2 {
+  color: grey;
+  text-align: center;
+  font-weight: 200;
+  width: 100%;
+  letter-spacing: 0.125em;
+}
+
+h3 {
+  color: black;
+  width: 100%;
+}
+
+p {
+  color: grey;
+  text-align: center;
+  width: 35%;
+  margin: 0 auto 60px;
+  line-height: 1.5;
+}
+
+.middle-container {
+  position: relative;
+  padding: 10px 0;
+  /*this is the parent of the boxes, padding used to prevent margin collapsing*/
+}
+
+.teamBuilder-box {
+  border-top: 5px solid red;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  background-color: hsl(180, 100%, 99%);
+  width: 325px;
+  height: 215px;
+  text-align: left;
+  padding: 20px;
+  margin: 0 auto 50px;
+  box-shadow: 0 15px 30px 2px #D3D3D3;
+}
+
+.karma-box {
+  border-top: 5px solid orange;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  background-color: hsl(180, 100%, 99%);
+  width: 325px;
+  height: 215px;
+  margin: 150px;
+  text-align: left;
+  padding: 20px;
+  margin: 0 auto 50px;
+  box-shadow: 0 15px 30px 2px #D3D3D3;
+}
+
+.supervisor-box {
+  border-top: 5px solid green;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  background-color: hsl(180, 100%, 99%);
+  width: 325px;
+  height: 215px;
+  text-align: left;
+  padding: 20px;
+  position: absolute;
+  left: 50px;
+  top: 175px;
+  /*  margin: 0 auto 50px; */
+  box-shadow: 0 15px 30px 2px #D3D3D3;
+}
+
+.calculator-box {
+  border-top: 5px solid blue;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  background-color: hsl(180, 100%, 99%);
+  width: 325px;
+  height: 215px;
+  text-align: left;
+  padding: 20px;
+  position: absolute;
+  right: 50px;
+  top: 175px;
+
+  /*  margin: 0 auto 50px; */
+  box-shadow: 0 15px 30px 2px #D3D3D3;
+}
+
+.description {
+  text-align: left;
+  margin-left: 0;
+  width: 90%;
+}
+
+.supervisor-image {
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+
+.team-builder-image {
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+
+.karma-image {
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+
+.calculator-image {
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+
+/* does not work
+.attribution {
+  width: 100%
+  margin: 0 auto;
+}
+*/
+.attribution {
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  margin: 400px auto 0;
+}
+
+@media only screen and (max-width: 375px) {}
